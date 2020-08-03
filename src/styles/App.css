@@ -1,0 +1,26 @@
+
+.app {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.accordion>.card {
+    overflow: visible;
+}
+
+.accordion .card-header {
+    cursor: pointer;
+}
+
+.spaceBetween {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
